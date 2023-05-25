@@ -13,8 +13,8 @@ const {getProduct, postProduct, updateProduct, deleteProduct} = require("./api/c
 const {getCustomer, postCustomer, updateCustomer, deleteCustomer} = require("./api/controllers/Customer");
 
 const corsOptions = {
-  origin: ["http://localhost:3001", "http://localhost:3000"],
-  //  origin: ["https://snack.expo.dev/@jundavewamar/pos", "https://snack.expo.dev/@jundavewamar/pos/","https://snack.expo.dev/@jundavewamar", "https://snack.expo.dev/"],
+ //origin: ["http://localhost:3001", "http://localhost:3000"],
+    origin: ["https://snack.expo.dev/@jundavewamar/jobseeker-client", "https://snack.expo.dev/@jundavewamar/jobseeker-client/","https://snack.expo.dev/@jundavewamar", "https://snack.expo.dev/"],
    method: ["GET", "POST", "PATCH", "PUT", "HEAD", "OPTIONS"],
    credentials: true,
 };
